@@ -38,7 +38,7 @@ class Course {
         } else {
             echo "Không có khóa học nào.";
         }
-            echo $courses;
+        return $courses;
     }
     
     // Phương thức ghi danh sách khóa học vào file
